@@ -1,7 +1,9 @@
+
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Image from '../Image'
-const Api = () => {
+
+const Appi = () => {
 
     let [allData, setAllData] = useState([])
     useEffect(() => {
@@ -30,4 +32,7 @@ const Api = () => {
     )
 }
 
-export default Api
+export default Appi
+
+
+

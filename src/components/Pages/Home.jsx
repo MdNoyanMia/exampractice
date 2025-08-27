@@ -1,12 +1,14 @@
 import React from 'react'
 import Banner from '../Layouts/Banner'
-import Api from '../Layouts/api'
+import Appi from '../Layouts/Appi'
+
+
 
 const Home = () => {
   return (
   <>
   <Banner/>
-  <Api/>
+<Appi/>
   </>
   )
 }
