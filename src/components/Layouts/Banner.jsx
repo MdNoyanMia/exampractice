@@ -24,7 +24,7 @@ const Banner = () => {
             <Slider {...settings}>
 
                 <div>
-                    <div class="bg-[url(/src/assets/bbenner.png)] h-[600px] bg-center bg-cover  bg-no-repeat" />
+                    <div class="bg-[url(/src/assets/banner4.png)] h-[600px] bg-center bg-cover  bg-no-repeat" />
                 </div>
                 <div>
                     <div class="bg-[url(/src/assets/banneee2.jpg)] h-[600px] bg-center bg-cover  bg-no-repeat" />

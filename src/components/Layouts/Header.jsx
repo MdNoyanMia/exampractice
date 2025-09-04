@@ -3,7 +3,7 @@ import Contact from '../Pages/Contact'
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import logu from '/src/assets/logu.png'
+import logu2 from '/src/assets/logu2.png'
 import { Link } from 'react-router-dom'
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
@@ -17,27 +17,32 @@ const Header = () => {
         <Container>
           <Flex className='flex gap-x-70'>
             <div>
-              <Image imgSrc={logu} />
+              <Image imgSrc={logu2} />
             </div>
             <div>
               <ul className='flex gap-x-5'>
                 <Link to={'/'}>
-                  <li className='hover:text-amber-300 duration-700'>Home</li>
+                  <li className='hover:text-amber-300 duration-700'>HOME</li>
                 </Link>
                 <Link to={'/'}>
-                  <li className='hover:text-amber-300 duration-700'>About</li>
+                  <li className='hover:text-amber-300 duration-700'>SHOP</li>
                 </Link>
                 <Link to={'/'}>
-                  <li className='hover:text-amber-300 duration-700'>Shop</li>
+                  <li className='hover:text-amber-300 duration-700'>COLLECTION</li>
                 </Link>
                 <Link to={'/'}>
-                  <li className='hover:text-amber-300 duration-700'>Contact</li>
+                  <li className='hover:text-amber-300 duration-700'>JOURNAL</li>
                 </Link>
-                <Link to={'/'}>
-                  <li className='hover:text-amber-300 duration-700'>Journal</li>
+                  <Link to={'/'}>
+                  <li className='hover:text-amber-300 duration-700'>LOOKBOOK</li>
+                </Link>
+                  <Link to={'/'}>
+                  <li className='hover:text-amber-300 duration-700'>PAGES</li>
                 </Link>
               </ul>
             </div>
+
+          
             <div className='flex gap-x-4'>
 
               <div onClick={() => {
@@ -51,7 +56,7 @@ const Header = () => {
                 showcategory && (
                   <ul>
                     <li>
-                      hkjhj;kgh;ghkjhfg
+                    
                     </li>
                   </ul>
                 )
